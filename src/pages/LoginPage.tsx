@@ -263,10 +263,10 @@ function LoginPage() {
 						</LabelWrapper>
 						<InputWrapper>
 							<Input
-								type="url"
+								type="hidden"
 								{...register("instance", {
 									required: true,
-									value: "https://server.elysium.chat/",
+									value: Globals.routeSettings.wellknown,
 								})}
 								placeholder="Instance Root URL"
 								onChange={handleInstanceChange}
