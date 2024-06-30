@@ -230,12 +230,12 @@ function LoginPage() {
 				<HeaderContainer>
 					{AUTH_NO_BRANDING ? (
 						<>
-							<Header>Login to Spacebar</Header>
+							<Header>Login to Elysiumr</Header>
 						</>
 					) : (
 						<>
 							<SpacebarLogoBlue height={48} width="auto" />
-							<SubHeader noBranding>Log into Spacebar</SubHeader>
+							<SubHeader noBranding>Log into Elysium</SubHeader>
 						</>
 					)}
 				</HeaderContainer>
