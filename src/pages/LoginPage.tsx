@@ -266,7 +266,7 @@ function LoginPage() {
 								type="url"
 								{...register("instance", {
 									required: true,
-									value: Globals.routeSettings.wellknown,
+									value: "https://server.elysium.chat/",
 								})}
 								placeholder="Instance Root URL"
 								onChange={handleInstanceChange}
@@ -333,7 +333,7 @@ function LoginPage() {
 					</SubmitButton>
 
 					<AuthSwitchPageContainer>
-						<AuthSwitchPageLabel>New to Spacebar?&nbsp;</AuthSwitchPageLabel>
+						<AuthSwitchPageLabel>New to Elysium?&nbsp;</AuthSwitchPageLabel>
 						<AuthSwitchPageLink
 							onClick={() => {
 								navigate("/register");
