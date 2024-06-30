@@ -243,7 +243,6 @@ function LoginPage() {
 				<FormContainer onSubmit={onSubmit}>
 					<InputContainer marginBottom={true} style={{ marginTop: 0 }}>
 						<LabelWrapper error={!!errors.instance}>
-							<InputLabel>Instance</InputLabel>
 							{isCheckingInstance != false && (
 								<InputErrorText>
 									<>
