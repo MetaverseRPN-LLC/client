@@ -20,7 +20,7 @@ const SpacebarLogo = styled(SpacebarLogoBlue)`
 	height: min-content;
 	margin-bottom: 32px;
 
-	@media (min-width: 768px) {
+	@media (min-width: 568px) {
 		width: 40vw;
 	}
 `;
