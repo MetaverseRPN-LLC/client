@@ -6,10 +6,10 @@ export interface RouteSettings {
 }
 
 export const DefaultRouteSettings: RouteSettings = {
-	api: "https://api.old.server.spacebar.chat/api",
-	cdn: "https://cdn.old.server.spacebar.chat",
-	gateway: "wss://gateway.old.server.spacebar.chat",
-	wellknown: "https://spacebar.chat",
+	api: "https://server.elysium.chat/api",
+	cdn: "https://server.elysium.chat",
+	gateway: "wss://server.elysium.chat",
+	wellknown: "https://server.elysium.chat/",
 };
 
 // TODO: we should probably make our own
